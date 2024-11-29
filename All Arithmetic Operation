@@ -1,0 +1,48 @@
+public class ArithmeticOperations {
+    public static void main(String[] args) {
+        int x = 10;
+        int y = 3;
+
+        // Unary Operations
+        System.out.println("Unary Operations:");
+        System.out.println("Increment (x++): " + (x++));
+        System.out.println("x after increment: " + x);
+        System.out.println("Decrement (--x): " + (--x));
+        System.out.println("x after decrement: " + x);
+        System.out.println("Unary Plus (+x): " + (+x));
+        System.out.println("Unary Minus (-x): " + (-x));
+
+        // Binary Operations
+        System.out.println("\nBinary Operations:");
+        System.out.println("Addition (x + y): " + (x + y));
+        System.out.println("Subtraction (x - y): " + (x - y));
+        System.out.println("Multiplication (x * y): " + (x * y));
+        System.out.println("Division (x / y): " + (x / y));
+        System.out.println("Modulus (x % y): " + (x % y));
+
+        // Assignment Operations
+        System.out.println("\nAssignment Operations:");
+        x = 10;
+        System.out.println("Assignment (=): x = " + x);
+        x += 3;
+        System.out.println("Addition Assignment (+=): x += 3, x = " + x);
+        x -= 2;
+        System.out.println("Subtraction Assignment (-=): x -= 2, x = " + x);
+        x *= 2;
+        System.out.println("Multiplication Assignment (*=): x *= 2, x = " + x);
+        x /= 2;
+        System.out.println("Division Assignment (/=): x /= 2, x = " + x);
+        x %= 3;
+        System.out.println("Modulus Assignment (%=): x %= 3, x = " + x);
+
+        // Increment and Decrement Operations
+        System.out.println("\nIncrement and Decrement Operations:");
+        x = 10;
+        System.out.println("Pre-Increment (++x): " + (++x));
+        System.out.println("Post-Increment (x++): " + (x++));
+        System.out.println("x after post-increment: " + x);
+        System.out.println("Pre-Decrement (--x): " + (--x));
+        System.out.println("Post-Decrement (x--): " + (x--));
+        System.out.println("x after post-decrement: " + x);
+    }
+}
